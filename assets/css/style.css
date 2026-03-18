@@ -1,14 +1,6 @@
 /* Importing Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-
-.oswald-header {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
 /* Asterisk wildcard selector to override default styles */
 * {
     margin: 0;
@@ -23,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 
