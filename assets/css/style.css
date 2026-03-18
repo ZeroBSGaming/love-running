@@ -253,9 +253,19 @@ main {
     }
 
     #times h3 {
+        /* Override the color set for h3 elements in the main content */
         color:#fafafa;
     }
 
+    /* gallery section */   
+    #photos img {
+        width: 100%;
+        line-height: 1em;  
+    }
+
+    #photos {
+        line-height: 0%;
+    }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {}
     #menu a:hover{
